@@ -1,0 +1,11 @@
+Plotted to '/Users/samuelhodge/KiCad/ME 433 HW3/ME 433 HW3-F_Cu.gbr'.
+Plotted to '/Users/samuelhodge/KiCad/ME 433 HW3/ME 433 HW3-B_Cu.gbr'.
+Plotted to '/Users/samuelhodge/KiCad/ME 433 HW3/ME 433 HW3-F_Paste.gbr'.
+Plotted to '/Users/samuelhodge/KiCad/ME 433 HW3/ME 433 HW3-B_Paste.gbr'.
+Plotted to '/Users/samuelhodge/KiCad/ME 433 HW3/ME 433 HW3-F_Silkscreen.gbr'.
+Plotted to '/Users/samuelhodge/KiCad/ME 433 HW3/ME 433 HW3-B_Silkscreen.gbr'.
+Plotted to '/Users/samuelhodge/KiCad/ME 433 HW3/ME 433 HW3-F_Mask.gbr'.
+Plotted to '/Users/samuelhodge/KiCad/ME 433 HW3/ME 433 HW3-B_Mask.gbr'.
+Plotted to '/Users/samuelhodge/KiCad/ME 433 HW3/ME 433 HW3-Edge_Cuts.gbr'.
+Created Gerber job file '/Users/samuelhodge/KiCad/ME 433 HW3/ME 433 HW3-job.gbrjob'.
+Info: Done.
