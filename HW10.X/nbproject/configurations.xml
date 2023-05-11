@@ -4,9 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>mpu6050.h</itemPath>
       <itemPath>nu32dip.h</itemPath>
-      <itemPath>i2c_master_noint.h</itemPath>
+      <itemPath>ws2812b.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -16,10 +15,9 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>hw7_template.c</itemPath>
-      <itemPath>mpu6050.c</itemPath>
       <itemPath>nu32dip.c</itemPath>
-      <itemPath>i2c_master_noint.c</itemPath>
+      <itemPath>ws2812b.c</itemPath>
+      <itemPath>main.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -65,7 +63,7 @@
         <makeUseCleanTarget>false</makeUseCleanTarget>
         <makeCustomizationPreStep></makeCustomizationPreStep>
         <makeCustomizationPostStepEnabled>true</makeCustomizationPostStepEnabled>
-        <makeCustomizationPostStep>/Users/samuelhodge/ME333/SourceCode/embedded_computing_code/01_Quickstart_nu32dip/nu32utility /dev/tty.usbserial-1420 /Users/samuelhodge/GitHub/ME433SPH/HW7.X/dist/default/production/HW7.X.production.hex</makeCustomizationPostStep>
+        <makeCustomizationPostStep>/Users/samuelhodge/ME333/SourceCode/embedded_computing_code/01_Quickstart_nu32dip/nu32utility /dev/tty.usbserial-1410 /Users/samuelhodge/GitHub/ME433SPH/HW10.X/dist/default/production/HW10.X.production.hex</makeCustomizationPostStep>
         <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
@@ -83,7 +81,7 @@
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="false"/>
         <property key="make-warnings-into-errors" value="false"/>
-        <property key="optimization-level" value=""/>
+        <property key="optimization-level" value="-O1"/>
         <property key="place-data-into-section" value="false"/>
         <property key="post-instruction-scheduling" value="default"/>
         <property key="pre-instruction-scheduling" value="default"/>
@@ -97,6 +95,9 @@
         <property key="use-iar" value="false"/>
         <property key="use-indirect-calls" value="false"/>
       </C32>
+      <C32-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C32-AR>
       <C32-AS>
         <property key="assembler-symbols" value=""/>
         <property key="enable-symbols" value="true"/>
